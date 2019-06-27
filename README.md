@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## First thing!
-To run the project you must first run `npm install` to install all of the dependencies (make sure nodeJS is installed on the system first!)
+To run the project you must first clone, and run `npm install` in the cloned directory to install all of the dependencies (make sure nodeJS is installed on the system first!)
 
 ### `npm start`
 
