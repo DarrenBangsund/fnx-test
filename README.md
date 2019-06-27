@@ -18,4 +18,4 @@ I should mention this took me the full three hours. Most of my time went into bo
 I chose to fetch data from the imgur homepage. This was quite simple but there are a few quirks with their API. Upon first fetch of page 0 the API will return with 60 objects which is a great number, but then page 1 consists of over 300 elements, then page 2 is over 400 objects. I didn't know this until I already had everything wired up and working. This isn't particularly an issue until you have over a thousand `img` elements in the DOM and you resize the window or load in more objects. There are __definitely__ some optimizations to be made but there wasn't time. 
 
 
-The things that I would improve on are probably creating a more robust architecture, some real error handling, maybe support for videos and gifs, and of course optimizing the image loader. 
+The things that I would improve on are probably creating a more robust architecture, I'm not satisfied with the use of `fetch` in the action, I'd also like for some real error handling, maybe support for videos and gifs, and of course optimizing the image loader. 
